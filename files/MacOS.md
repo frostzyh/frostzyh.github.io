@@ -7,3 +7,6 @@
 
 * Sow hidden file:   
 	`defaults write com.apple.finder AppleShowAllFiles YES`
+
+* Clear screen:  
+	`Command(⌘) + K`
