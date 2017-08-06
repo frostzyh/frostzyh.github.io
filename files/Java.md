@@ -17,6 +17,7 @@ s.equals("R"); // return true
 Math.abs(a-b) < 0.0000001
 ```
 
+3. 
 
 ## Fundamental knowledge
 
@@ -27,3 +28,12 @@ Math.abs(a-b) < 0.0000001
   * ASCII (Pronunciation: ASS-KEY): 128 (0 -> 127)
   * Extended ASCII : 256 (0 -> 255)
   * Unicode: UTF-8:  very long
+
+### Arrays  
+* Copy elements in Array [a,b)  
+  `Arrays.copyOfRange(arr,a,b)`
+
+
+### Lists   
+* Assign value to List's elements  
+    Use `list.set(index, value)`

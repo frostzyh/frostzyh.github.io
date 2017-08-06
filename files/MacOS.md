@@ -11,7 +11,8 @@
 * Clear screen:  
 	`Command(⌘) + K`
 
-* TODO: Commands to Change terminal color
+* Change terminal color   
+	In .bash_profile , add `export PS1="\[\033[36m\]\u\[\033[m\]:\[\033[35m\]\w \[\033[m\]\$"`
 
 
 
