@@ -16,8 +16,11 @@
 
 
 
-
-
+### General
+* Switch between apps  
+	`Command(⌘) + TAB`
+* Switch between windows of same app  
+	``Command(⌘) + ` ``
 
 
 ### Softwares need to install when building a Mac   
