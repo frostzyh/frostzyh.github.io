@@ -13,7 +13,8 @@
 
 * Change terminal color/ Name/HostName  
 	In home directory `~`, edit or create a file .bash_profile `nano .bash_profile` and add the following three lines of codes
-	```export PS1="\[\033[36m\]\u\[\033[m\]:\[\033[35m\]\w \[\033[m\]\$"
+	```
+	export PS1="\[\033[36m\]\u\[\033[m\]:\[\033[35m\]\w \[\033[m\]\$"
 	export export CLICOLOR=1
 	export LSCOLORS=ExFxBxDxCxegedabagacad
 	alias ls='ls -GFh'
