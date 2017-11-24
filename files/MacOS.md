@@ -46,6 +46,15 @@
 		- Git + Github + BitBucket
 		- Atom
 		- OCaml + rlWrap (Homebrew)
-	* VLC player
-	* QNAP Sync
-	* Microsoft Office 365
+		- Latex: MacTex
+	* Other
+		- VLC Player
+		- MS Office 2016
+		- QNAP Sync
+
+		
+### Command-line tools
+	- Homebrew
+	`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+	- oh-my-zsh
+	`https://github.com/robbyrussell/oh-my-zsh`
