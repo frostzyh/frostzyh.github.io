@@ -5,6 +5,8 @@
 
 ### Programming Languages
 * [Java](./files/Java.md)
+* [Functional Programming Languages](./files/functional_pl.md)
+* [SQL](./files/SQL.md)
 
 
 
