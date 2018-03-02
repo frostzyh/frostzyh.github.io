@@ -6,13 +6,21 @@
 	`sudo vi /etc/paths`
 
 * Sow hidden file:   
-	`defaults write com.apple.finder AppleShowAllFiles YES`
+	`defaults write com.apple.finder AppleShowAllFiles YES;killall Finder`
 
 * Clear screen:  
 	`Command(⌘) + K`
 
 * Change terminal color   
-	In .bash_profile , add `export PS1="\[\033[36m\]\u\[\033[m\]:\[\033[35m\]\w \[\033[m\]\$"`
+	In .bash_profile , add
+	```
+	export PS1="\[\033[36m\]\u\[\033[m\]:\[\033[35m\]\w \[\033[m\]\$"
+	export export CLICOLOR=1
+	export LSCOLORS=ExFxBxDxCxegedabagacad
+	alias ls='ls -GFh'
+	```
+	To create bash profile. type 'nano .bash_profile'
+	Use Homebrew profile with "Use bold fonts" off
 
 ### Softwares need to install when building a Mac   
 	* Java + IntelliJ IDEA / Eclipse
