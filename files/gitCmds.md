@@ -1,3 +1,19 @@
+#### git config file
+Edit `.gitconfig` file
+```
+[user]
+	name = frostzyh
+	email = frostzyh@outlook.com
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	ac = !git add -A && git commit -m
+	ci = commit
+	hist = log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --graph --date=short
+```
+
+
 #### sync fork branch to main
 ```
 git fetch <origin> <branch>
