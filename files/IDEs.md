@@ -9,7 +9,7 @@
 * Disable Auto-remove Trailing WhiteSpace   
   * `Settings > Packages > WhiteSpace > Remove Trailing WhiteSpace`
 * Install Packages
-`apm install atom-beautify atom-clock autocomplete-modules color-picker emmet language-babel highlight-selected platformio-ide-terminal todo-show`
+`apm install atom-beautify atom-clock autocomplete-modules color-picker emmet language-babel highlight-selected platformio-ide-terminal todo-show linter linter-ui-default linter-eslint linter-jshint linter-sass-lint intentions busy-signal `
 
 
 
