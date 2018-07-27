@@ -18,6 +18,7 @@
 ```
 apm install linter linter-ui-default linter-eslint linter-jshint linter-sass-lint intentions busy-signal
 sudo npm install eslint@4.x babel-eslint@7 eslint-plugin-react@7 eslint-config-google --save-dev
+sudo npm install
 ```
 
 `.eslintrc.js`  file
@@ -52,6 +53,7 @@ module.exports = {
         "react/jsx-uses-vars": 2,
         "max-len": 0,
         "no-unused-vars": 0,
+        "no-undef": 0,
     }
 };
 
