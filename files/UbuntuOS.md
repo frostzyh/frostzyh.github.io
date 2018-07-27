@@ -42,9 +42,11 @@ fi
 ```
 sudo apt upgrade
 sudo apt update
-sudo apt install xclip curl npn vim
+sudo apt install xclip curl npn vim xpad
 
 curl install nvm(nodejs)
 
 sudo npm install -g npm@latest
 ```
+
+Synaptic Package Manager

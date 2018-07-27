@@ -5,6 +5,7 @@ Edit `.gitconfig` file
 	name = frostzyh
 	email = frostzyh@outlook.com
 [alias]
+	alias = config --get-regexp alias
 	co = checkout
 	st = status
 	br = branch
