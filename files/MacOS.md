@@ -33,6 +33,7 @@
 	* TextEditor : Atom
 	* Programming
 		- MySQL WorkBench
+		- Sequel Pro
 		- Python: Anaconda/TensorFlow/PyCharm
 		- Java: JAVA JDK, IntelliJ IDEA
 		- C++?
@@ -44,6 +45,12 @@
 		- VLC Player
 		- MS Office 2016
 		- QNAP Sync
+	* Chrome Extensions:
+		- Page Load Time
+		- Last Pass
+		- Full Page Screen Capture
+		- CSS Viewer
+		- EditThisCookie
 
 
 ### Command-line tools
