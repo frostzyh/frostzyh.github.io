@@ -14,7 +14,7 @@
       * Location: Beginning of this space
       * Use AS: EFI
     * 2nd partition:
-      * Size >= 20+ GB
+      * Size >= 100+GB (or large if using databse)
       * Type: Primary
       * Location: Beginning of this space
       * Use AS: ext4
