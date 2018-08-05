@@ -33,7 +33,8 @@
   * Select 1st partition as **boot loader device**.
   * [Reference](https://askubuntu.com/questions/726972/dual-boot-windows-10-and-linux-ubuntu-on-separate-hard-drives)
 
-### change Terminal color
+### .bashrc
+#### Change terminal color
 ```bash
 # Add '@\h' to show hostname
 git_branch() {
@@ -45,6 +46,13 @@ else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(git_branch)\$ '
 fi
 ```
+#### Common Alias
+```bash
+# custom alias
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+```
+---
 
 ### Terminal
 * Execution:
@@ -71,8 +79,11 @@ fi
 ```bash
 sudo apt upgrade
 sudo apt update
-sudo apt install xclip curl git vim xpad
+sudo apt install xclip curl git vim xpad gunzip gzip
 
+# custom alias
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 # to install node, install [nvm](https://github.com/creationix/nvm)
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 nvm install --lts
@@ -82,6 +93,11 @@ sudo npm install -g npm@latest
 #Check version
 node -v
 npm -v
+
+# Database:
+
+#https://www.postgresql.org/download/linux/ubuntu/
+sudo apt install postgresql-10 pgadmin4
 ```
 
 ### Frequenly used apps:

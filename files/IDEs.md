@@ -3,6 +3,7 @@
 ### Atom
 * Disable Auto-remove Trailing WhiteSpace
   * `Settings > Packages > WhiteSpace > Remove Trailing WhiteSpace`
+* Change Autocomplete setting: `autocomplete-plus> Keymap for comfirming a suggestion`
 * Install Packages
 `apm install atom-beautify atom-clock autocomplete-modules language-markdown color-picker emmet language-babel highlight-selected platformio-ide-terminal todo-show linter linter-ui-default linter-eslint linter-jshint linter-sass-lint intentions busy-signal `
 
