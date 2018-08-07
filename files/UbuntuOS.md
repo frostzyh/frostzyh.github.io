@@ -86,11 +86,9 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 # to install node, install [nvm](https://github.com/creationix/nvm)
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+command -v nvm
+# Close and restart a new terminal
 nvm install --lts
-
-sudo npm install -g npm@latest
-
-#Check version
 node -v
 npm -v
 
