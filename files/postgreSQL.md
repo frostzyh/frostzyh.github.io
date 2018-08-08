@@ -1,3 +1,17 @@
+### basic usage
+
+```bash
+sudo -i -u postgres
+sudo -u postgres psql
+
+createuser --interactive
+sudo -u postgres createuser --interactive
+man createuser
+
+```
+
+
+
 ### Installation
 
 **Prerequisites**
@@ -61,4 +75,28 @@ sudo rm -rf /var/lib/postgresql/10/main.bak
 #final check
 sudo systemctl restart postgresql
 sudo systemctl status postgresql
+```
+
+### Authentication
+```
+sudo vim /etc/postgresql/10/main/pg_hba.conf 
+```
+replace all 
+```
+local    all    postgres    peer
+``` 
+to 
+```
+local    all    postgres    md5
+```
+then 
+```bash
+sudo service postgresql restart
+```
+
+### Set password
+```
+sudo -u postgres psql postgres
+
+\password postgres
 ```
