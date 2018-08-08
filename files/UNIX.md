@@ -13,3 +13,10 @@ Untract folder
 
 Hard Reset
 `git reset --hard`
+
+`git rebase -i HEAD~2`
+
+
+`git remote add origin [url]`
+
+`git push -u [origin] [master]`

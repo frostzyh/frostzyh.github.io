@@ -122,6 +122,8 @@ generate_SHH_GPG()
   gpg --list-secret-keys --keyid-format LONG
   echo "please copy the key ID after rsa4096/ and paste......"
   read GPG_KEY
+  git config --global user.signingkey $GPG_KEY
+  git config --global commit.gpgsign true
   gpg --armor --export $GPG_KEY | xclip -selection clipboard
 }
 
