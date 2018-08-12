@@ -10,7 +10,8 @@ echo "Script written by frostzyh";
 echo "Would you like to install all/some/none?[a/s/n]"
 read STATUS
 
-PACKAGES="xclip curl git vim xpad gzip npm"
+# libgnome-keyring0 is for GitKraken
+PACKAGES="xclip curl git vim xpad gzip npm libgnome-keyring0"
 install_ubuntu_apps()
 {
   sudo apt upgrade
