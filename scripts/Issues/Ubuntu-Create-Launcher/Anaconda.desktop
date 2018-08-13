@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en_US]=/home/frostzyh/anaconda3/lib/python3.6/site-packages/anaconda_navigator/static/images/anaconda-icon-256x256.png
+Name[en_US]=Anaconda
+Exec=/home/frostzyh/anaconda3/bin/anaconda-navigator
+Name=Anaconda
+Icon=/home/frostzyh/anaconda3/lib/python3.6/site-packages/anaconda_navigator/static/images/anaconda-icon-256x256.png
