@@ -2,16 +2,22 @@
 Edit `.gitconfig` file
 ```
 [user]
-	name = frostzyh
-	email = frostzyh@outlook.com
+	name = "frostzyh"
+	email = immersedrift@gmail.com
+	signingkey = 94091DB7E9CCAEA3
 [alias]
 	alias = config --get-regexp alias
 	co = checkout
 	st = status
 	br = branch
 	ac = !git add -A && git commit -m
-	ci = commit
-	hist = log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold red){{%an}}%C(reset) %C(blue)%d%C(reset)' --graph --date=short
+	hist = log --pretty=format:'%C(yellow)[%ad]%C(reset) %C(green)[%h]%C(reset) | %C(red)%s %C(bold red)%C(reset) %C(blue)%d%C(reset)' --graph --date=short
+  prb = pull --rebase
+  rlog = reflog
+  cma = commit --amend
+  rbi = rebase -i
+[commit]
+	gpgsign = true
 ```
 
 
