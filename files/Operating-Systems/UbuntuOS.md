@@ -76,10 +76,14 @@ alias pbpaste='xclip -selection clipboard -o'
 4. GNOME Tweaks
 
 ### Packages:
+
 ```bash
 sudo apt upgrade
 sudo apt update
 sudo apt install xclip curl git vim xpad gunzip gzip
+# zsh and Oh-my-zsh
+sudo apt install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # custom alias
 alias pbcopy='xclip -selection clipboard'
