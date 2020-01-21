@@ -1,6 +1,10 @@
-#### git config file
+# Git commands
+
+## git config file
+
 Edit `.gitconfig` file
-```
+
+```bash
 [user]
 	name = "frostzyh"
 	email = immersedrift@gmail.com
@@ -20,35 +24,45 @@ Edit `.gitconfig` file
 	gpgsign = true
 ```
 
+## sync fork branch to main
 
-#### sync fork branch to main
-```
+```bash
 git fetch <origin> <branch>
 git pull <origin> <branch>
 git push
 ```
-#### Create New Branch, Change & push to repo
-```
+
+## Create New Branch, Change & push to repo
+
+```bash
 git checkout -b <branch>
 git add --all
 git commit -m "message"
 git push --set-upstream <origin> <branch>
 ```
-#### Delete Local Branch
-```
+
+## Delete Local Branch
+
+```bash
 git branch [-d|-D] <branch>
 ```
-#### Delete Remote Branch
-```
+
+## Delete Remote Branch
+
+```bash
 git push <origin> --delete <branch>
 ```
-#### Reset Local Branch to Remote
-```
+
+## Reset Local Branch to Remote
+
+```bash
 git fetch <origin>
 git reset --hard <origin>/<branch>
 ```
-#### Fix commits
-```
+
+## Fix commits
+
+```bash
 git checkout <branch>
 git rebase
 {
@@ -59,8 +73,10 @@ git rebase -i HEAD~2
   {f for fixup. }
 git push <origin> HEAD --force
 ```
-#### RC-PR
-```
+
+## RC-PR
+
+```bash
 git fetch integration rc
 git pull integration rc
 git cherry-pick <SHA>   <Oldest commit>
@@ -70,3 +86,9 @@ git log         <Check for errors>
 git push yehui rc
 <Create Pull Request>
 ```
+
+## Remove sensitive files
+
+`git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD`
+To reset the action
+`git reset --hard refs/original/refs/heads/master`
