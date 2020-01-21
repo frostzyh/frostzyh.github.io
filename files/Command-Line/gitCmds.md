@@ -89,6 +89,9 @@ git push yehui rc
 
 ## Remove sensitive files
 
-`git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD`
-To reset the action
+```bash
+git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch path_to_file" HEAD
+```
+
+To reset the action  
 `git reset --hard refs/original/refs/heads/master`
