@@ -41,16 +41,15 @@ git commit -m "message"
 git push --set-upstream <origin> <branch>
 ```
 
-## Delete Local Branch
+## Branch Management
 
 ```bash
-git branch [-d|-D] <branch>
-```
+# Delelte local
+git branch -d featureBranch
+git branch -D featureBranch  # force delete
 
-## Delete Remote Branch
-
-```bash
-git push <origin> --delete <branch>
+# Delete remote branch
+git push origin --delete featureBranch
 ```
 
 ## Reset Local Branch to Remote
