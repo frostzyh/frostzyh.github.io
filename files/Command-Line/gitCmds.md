@@ -40,6 +40,19 @@ git add --all
 git commit -m "message"
 git push --set-upstream <origin> <branch>
 ```
+## [Stash](https://www.atlassian.com/git/tutorials/saving-changes/git-stash)
+```bash
+git stash
+git stash pop # Reapply and remove from stash
+git stach apply # Re-apply but keep changes on stash
+```
+
+## Change History
+```bash
+# Squash commits
+git rebase -i HEAD~N  # Here N is the number of commits to combine
+# Then pick the first(oldest) commit and squash all others and save.
+```
 
 ## Branch Management
 
